@@ -1,0 +1,7 @@
+- name: "Test playbook"
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: "Print msg"
+      ansible.builtin.debug:
+        msg: "This is test playbook"
